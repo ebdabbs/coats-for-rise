@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<div class="home">
+	<div class="section" id="intro">
+		<div class="wrapper">
+			<h1 class="section-heading">Share the Warmth</h1>
+			<h3>With our neighbors in need</h3>
+			<p>
+				<a target="_blank" href="https://www.jlgp.org/">The Junior League of Greater Princeton</a>
+				is collecting gently used and new Men's, Women's, and Children's Coats
+				for RISE now through December 11<sup>th</sup>.
+			</p>
+		</div>
+	</div>
+	<div class="section" id="rise">
+		<div class="wrapper">
+			<h2 class="section-heading">What is RISE?</h2>
+			<p>
+				Rise provides social support services in the Hightstown and East Windsor areas.
+				Through community partnerships and direct services, they assist local families
+				and individuals in recovering from setbacks and achieving their full potential.
+				Find out more on their <a target="_blank" href="https://www.njrise.org/">website</a>.
+			</p>
+		</div>
+	</div>
+	<div class="section" id="donate">
+		<div class="wrapper">
+			<h2 class="section-heading">How Can I Help?</h2>
+			<p>We're glad you asked!</p>
+			<ul>
+				<li>
+					To donate online, visit our <a target="_blank" href="http://tgt.gifts/coats-for-rise">Target Wish List</a>.
+				</li>
+				<li>
+					If you live in the Greater Princeton area, check
+					out our list of <a href="#locations">coat collection locations</a>.
+				</li>
+				<li>
+					Would you like your business, school, or organization
+					to be included in the coat collection locations?
+					Please fill out <a target="_blank" href="https://goo.gl/forms/OXfghsf6VumGlJ4b2">this simple form</a>.
+				</li>
+				<li>
+					Finally, spread the word! <a target="_blank" href="">Download our flyer</a>,
+					<a target="_blank" href="">Tweet about it</a>, and <a target="_blank" href="">invite your Facebook friends</a>.
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="section" id="locations">
+		<div class="wrapper">
+			<h2 class="section-heading">Coat Collection Locations</h2>
+			<p>Coming Soon!</p>
+			<!--<p>Look for the box with our flyer!</p>-->
+			<ul>
+				{% for location in site.data.locations %}
+				<!--<li>-->
+					<!--<div class="name">{{location.name}}</div>-->
+					<!--<a target="_blank" href="{{location.url}}">{{location.address}}</a>-->
+					<!--<div class="additional">{{location.additional}}</div>-->
+				<!--</li>-->
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="section" id="results">
+		<div class="wrapper">
+			<h2 class="section-heading">Results</h2>
+			<p>
+				Check back for updates and photos as we work towards our goal of 400
+				coats for RISE.
+			</p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,9 @@
+- name: Sample Place
+  address: 1 Palmer Sq. Princeton, NJ 08542
+  url: https://goo.gl/maps/2u4jUMN3Zin
+  additional: additional info
+
+- name: Sample Place 2
+  address: 65 Witherspoon St, Princeton, NJ 08542
+  url: https://goo.gl/maps/KcRrLLx4TjA2
+  additional:
