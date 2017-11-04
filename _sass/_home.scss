@@ -1,0 +1,51 @@
+.home {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: $color-text;
+    .section {
+        padding: 7% 0;
+        .section-heading {
+            text-align: center;
+        }
+        .section-img {
+            margin: 30px auto 0 auto;
+            display: block;
+            max-height: 80px;
+        }
+        &#intro {
+            padding-top: 2%;
+            background-color: $color-white;
+            .circle-wrapper {
+                .circle {
+                    border-color: $color-red;
+                    background: url("/assets/HolidayintheCottage/17.png") center;
+                }
+            }
+        }
+        &#rise {
+            color: $color-white;
+            background-color: $color-red;
+            a {
+                color: $color-blue;
+            }
+        }
+        &#donate {
+            background-color: $color-blue;
+        }
+        &#locations {
+            color: $color-white;
+            background-color: $color-green;
+            a {
+                color: $color-blue;
+            }
+            ul {
+                list-style-type: none;
+                margin-left: 0;
+                li {
+                    margin: 15px 0;
+                    padding-left: 10px;
+                    border-left: solid 3px $color-blue;
+                }
+            }
+        }
+    }
+}

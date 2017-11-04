@@ -1,0 +1,12 @@
+header {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: $color-white;
+    border-top: none !important;
+    background-color: $color-green;
+    a.site-title {
+        color: $color-white;
+        &:hover {
+            color: $color-blue;
+        }
+    }
+}
