@@ -4,8 +4,8 @@ email: info@coatsforrise.org
 description: > # this means to ignore newlines until "baseurl:"
   Help the Junior League of Greater Princeton share the warmth
   with our neighbors in need this holiday season.
-baseurl: "/coats-for-rise"
-url: "http://lizziesalita.com" # the base hostname & protocol for your site
+baseurl: "/"
+url: "coatsforrise.org" # the base hostname & protocol for your site
 twitter_username: CoatsForRISE
 github_username:  ebdabbs
 
