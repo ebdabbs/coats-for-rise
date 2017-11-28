@@ -53,15 +53,16 @@ layout: default
 	<div class="section" id="locations">
 		<div class="wrapper">
 			<h2 class="section-heading">Coat Collection Locations</h2>
-			<p>Coming Soon!</p>
-			<!--<p>Look for the box with our flyer!</p>-->
+			<p>Look for the box with our flyer!</p>
 			<ul>
 				{% for location in site.data.locations %}
-				<!--<li>-->
-					<!--<div class="name">{{location.name}}</div>-->
-					<!--<a target="_blank" href="{{location.url}}">{{location.address}}</a>-->
-					<!--<div class="additional">{{location.additional}}</div>-->
-				<!--</li>-->
+				<li>
+					<div class="name">{{location.name}}</div>
+					<a target="_blank" href="{{location.url}}">{{location.address}}</a>
+					<div>{{location.phone}}</div>
+					<a target="_blank" href="{{location.website}}">{{location.website}}</a>
+					<div class="additional">{{location.additional}}</div>
+				</li>
 				{% endfor %}
 			</ul>
 			<img class="section-img" src="assets/HolidayintheCottage/25.png">
